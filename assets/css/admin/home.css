@@ -1,0 +1,33 @@
+.ganho_diario_form{
+    padding: 13px;
+    font-size: 1.3em;
+}
+.ganho_diario_form_grup{margin: 2px 2px 5px 5px;}
+.ganho_diario_form_grup .input-group-addon{
+    font-size: 20px;
+}
+.ganho_diario_form_grup input{font-size: 20px;text-align: center;}
+.ganho_diario_form_btn{
+    height: 40px!important;
+    border-radius: 5px;
+    color: #fff!important;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0;
+    width: auto;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+    background: #17bed0;
+    margin-right: inherit;
+}
+.ganho_diario_form_btn:hover,.ganho_diario_form_btn:focus{
+    background: #18bcc5;
+}
+.ganho_diario_form_btn:active{
+    background: #18bcc5;
+}

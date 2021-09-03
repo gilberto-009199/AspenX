@@ -1,0 +1,127 @@
+@import url('roboto.css');
+
+object { display: none!important; }
+
+.debug{
+    padding:20px;
+    font-size:13px;
+    background-color: #9925cf;
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+}
+.page-header-inverse {
+    background-color: #415965!important;
+    color: #fff!important;
+    margin-bottom: 20px!important;
+}
+.navbar-brand{
+    font-size: 17px;
+}
+.login-cover{
+    background: #314D5B;
+}
+.login-form {
+    margin-top: 50px!important;
+}
+
+.uploader .action {
+    width: 100px !important;
+    color: #fff;
+}
+.img-avatar{
+    cursor: pointer;
+}
+
+
+.panel-icon {
+    background: rgba(255,255,255,0.9);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+}
+.panel-icon i{
+    vertical-align: middle;
+    font-size:25pt;
+    margin-top:12px;
+}
+.media, .media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+.row-stat hr {
+    opacity: 0.3;
+    margin: 15px 0 0 0;
+    border-width: 2px;
+}
+.mt20 {
+    margin-top: 20px !important;
+}
+.row-stat .md-title {
+    opacity: 0.6;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.nomargin {
+    margin: 0;
+}
+.md-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.row-stat .md-title {
+    opacity: 0.6;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.row-stat h1 {
+    margin-bottom: 0;
+}
+
+.mt5 {
+    margin-top: 5px !important;
+}
+
+
+.icons-list a[data-action] {
+    vertical-align: middle;
+    -webkit-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+}
+
+.icons-list > li > a {
+    color: inherit;
+    display: block;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.panel .btn-white-indigo {
+    color: #5C6BC0;
+    background-color: #F5F5F5;
+    border-color: #F5F5F5;
+    margin-top: 10px;
+    min-width:100px;
+}
+.panel .btn-white-indigo i{
+    margin-top:2px;
+    float: left;
+    margin-right: 10px;
+}
+.icon-m-r{
+    margin-right:10px;
+    margin-top:-4px;
+}

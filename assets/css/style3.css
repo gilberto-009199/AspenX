@@ -1,0 +1,183 @@
+/*#home_coluna_meus_dados_id{}*/
+.content-wrapper, .page-header, .page-header-content {
+
+    background-color: #2c3237;
+    color:white;
+
+}
+
+div.panel, .panel-title, .panel-body,  div.panel > table > tbody > tr,
+ .border-bottom-indigo, .table-striped>tbody>tr:nth-of-type(odd), div.border-bottom-purple, .panel-footer,.panel-default>.panel-heading,.panel-white>.panel-heading,.border-bottom-orange  {
+
+    background-color:#363e44;
+    color:white;
+    border-color: white;
+
+}
+.dataTables_paginate a.paginate_button {
+
+    color:white;
+}
+
+.dataTables_paginate a.paginate_button:hover {
+
+    color:black;
+}
+.bg-primary {
+
+    background-color: #2c3237;
+    color: white;
+    border-color:#2c3237;
+}
+
+.img-thumbnail{
+    background: none;
+}
+
+.dashboard-stat .details .number{
+ font-size: 2.3em;
+}
+
+div.modal-content div.modal-body {
+    color:black;
+}
+/* Plano de carreira */
+
+.career_linha{
+
+}
+.career_linha .panel{
+    
+background-color: transparent;
+    
+border: none;
+}
+.career_linha_item{
+   padding: 2px 10px 21px 10px;
+   border: none;
+   background-color: #363e44;
+}
+.career_linha_item, .career_linha_item_valor{
+    transition:all 1s;
+}
+.career_linha_item_titulo{
+
+    min-width: 70px;
+
+    text-align: center;
+
+    font-weight: 900;
+
+    font-size: 1.5em;
+
+    color: #b1b5b7;
+
+    text-transform: uppercase;
+}
+.career_linha_item_subtitulo{
+	min-width: 70px;
+    text-align: center;
+    font-size: 0.95em;
+    color: #b1b5b7;
+}
+.career_linha_item_imagem{
+
+    width: 100px;
+
+    height: 100px;
+
+    padding: 2px;
+
+    border-radius: 100px;
+
+    /* display: block; */
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-top: 7px;
+
+    border: solid 3px;
+}
+.career_linha_item_imagem img{
+
+    width: 96px;
+
+    height: 96px;
+
+    display: block;
+
+    margin-left: -3px;
+
+    margin-top: -3px;
+
+    margin-right: auto;
+
+    border-radius: 100px;
+}
+.career_linha_item_valor,.career_linha_item_valor--ativo{
+
+   
+    cursor: pointer;
+
+    display: block;
+
+    width: 60%;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    border-color: transparent;
+
+    background-color: #1B90D7;
+
+    border-radius: 2px;
+
+    text-align: center;
+
+    font-size: 0.9em;
+
+    padding: 0.5em 0.5em;
+}
+.career_linha_item_valor--ativo{
+    background-color: #00984A;
+    color: #fff;
+    border-radius: 3px;
+}
+.career_linha_item:hover{
+    transform:translateY(2px);
+}
+.career_linha_item:hover > .career_linha_item_valor{
+    background-color: #2fa2e8;   
+}
+/* Arvore */
+.carrer_modal_saldo_item{
+    
+}
+.carrer_modal_saldo_item,.carrer_modal_saldo_item--selecionado{
+    transition: 1s all;
+    cursor: pointer;
+}
+.carrer_modal_saldo_item--selecionado{
+    border: solid 5px #1fce1f;
+}
+.carrer_modal_saldo_item:hover,.carrer_modal_saldo_item--selecionado:hover{
+    transform:translateY(-2px);
+}
+.carrer_modal_saldo_btn{font-size: 1.5em;text-transform: uppercase;}
+
+/* Ewallet extract */
+.extract-percentual{
+    background-color: #2196f3;
+    float: right;
+    width: 46px;
+    display: inline-block;
+    font-size: 11px;
+    transition:all 1s;
+    border-color: #5e6468;
+}
+.extract-percentual:hover{
+    transform:scale(1.2);
+}
