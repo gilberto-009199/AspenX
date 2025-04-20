@@ -1,0 +1,6 @@
+{
+  "name": "Site static",
+  "description": "Site static",
+  "keywords": ["node", "heroku"],
+  "image": "heroku/nodejs"
+}
